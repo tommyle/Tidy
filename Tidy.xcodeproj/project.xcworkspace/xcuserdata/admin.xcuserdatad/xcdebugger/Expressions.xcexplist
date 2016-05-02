@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[AppDelegate initGroup]:AppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Group getItemWithName:]:Group.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "item.name">
+            </PersistentString>
+            <PersistentString
+               value = "i.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__58-[TidyWindow initWithContentRect:styleMask:backing:defer:]_block_invoke:TidyWindow.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[items objectAtIndex:0]">
+            </PersistentString>
+            <PersistentString
+               value = "[object isKindOfClass:[SBObject class]]">
+            </PersistentString>
+            <PersistentString
+               value = "[g.items count]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController viewDidLoad]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate getGroupByName:]:AppDelegate.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TidyWindow initWithContentRect:styleMask:backing:defer:]:TidyWindow.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "g1.name">
+            </PersistentString>
+            <PersistentString
+               value = "g.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate getAllGroups]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "g.name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController outlineView:viewForTableColumn:item:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TidyWindow moveFile:]:TidyWindow.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[TidyWindow didClickInFinder:]:TidyWindow.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "kCGDesktopWindowLevel">
+            </PersistentString>
+            <PersistentString
+               value = "Long.MIN_VALUE">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

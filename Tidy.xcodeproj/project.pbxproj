@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8494553A1C4215AC00A748A0 /* Group+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 849455331C4215AC00A748A0 /* Group+CoreDataProperties.m */; };
+		8494553B1C4215AC00A748A0 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 849455351C4215AC00A748A0 /* Group.m */; };
+		8494553C1C4215AC00A748A0 /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 849455371C4215AC00A748A0 /* Item+CoreDataProperties.m */; };
+		8494553D1C4215AC00A748A0 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 849455391C4215AC00A748A0 /* Item.m */; };
+		8494553F1C4234D100A748A0 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8494553E1C4234D100A748A0 /* CoreServices.framework */; };
+		849455411C42354300A748A0 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849455401C42354300A748A0 /* ScriptingBridge.framework */; };
+		84EC56CA1C3391630078ECF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC56C91C3391630078ECF7 /* AppDelegate.m */; };
+		84EC56CD1C3391630078ECF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC56CC1C3391630078ECF7 /* main.m */; };
+		84EC56D01C3391630078ECF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC56CF1C3391630078ECF7 /* ViewController.m */; };
+		84EC56D31C3391630078ECF7 /* Tidy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84EC56D11C3391630078ECF7 /* Tidy.xcdatamodeld */; };
+		84EC56D51C3391630078ECF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EC56D41C3391630078ECF7 /* Assets.xcassets */; };
+		84EC56D81C3391630078ECF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EC56D61C3391630078ECF7 /* Main.storyboard */; };
+		84EC56E11C3391870078ECF7 /* TidyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC56E01C3391870078ECF7 /* TidyWindow.m */; };
+		84EC56E51C33C24F0078ECF7 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EC56E41C33C24F0078ECF7 /* menu-icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		849455321C4215AC00A748A0 /* Group+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Group+CoreDataProperties.h"; path = "../Group+CoreDataProperties.h"; sourceTree = "<group>"; };
+		849455331C4215AC00A748A0 /* Group+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Group+CoreDataProperties.m"; path = "../Group+CoreDataProperties.m"; sourceTree = "<group>"; };
+		849455341C4215AC00A748A0 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Group.h; path = ../Group.h; sourceTree = "<group>"; };
+		849455351C4215AC00A748A0 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Group.m; path = ../Group.m; sourceTree = "<group>"; };
+		849455361C4215AC00A748A0 /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Item+CoreDataProperties.h"; path = "../Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		849455371C4215AC00A748A0 /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Item+CoreDataProperties.m"; path = "../Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		849455381C4215AC00A748A0 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../Item.h; sourceTree = "<group>"; };
+		849455391C4215AC00A748A0 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = ../Item.m; sourceTree = "<group>"; };
+		8494553E1C4234D100A748A0 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		849455401C42354300A748A0 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		849455421C42385C00A748A0 /* Finder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Finder.h; path = Tidy/Finder.h; sourceTree = "<group>"; };
+		84EC56C51C3391630078ECF7 /* Tidy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tidy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EC56C81C3391630078ECF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84EC56C91C3391630078ECF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84EC56CC1C3391630078ECF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EC56CE1C3391630078ECF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EC56CF1C3391630078ECF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EC56D21C3391630078ECF7 /* Tidy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tidy.xcdatamodel; sourceTree = "<group>"; };
+		84EC56D41C3391630078ECF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EC56D71C3391630078ECF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EC56D91C3391630078ECF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EC56DF1C3391870078ECF7 /* TidyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TidyWindow.h; sourceTree = "<group>"; };
+		84EC56E01C3391870078ECF7 /* TidyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TidyWindow.m; sourceTree = "<group>"; };
+		84EC56E41C33C24F0078ECF7 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EC56C21C3391630078ECF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849455411C42354300A748A0 /* ScriptingBridge.framework in Frameworks */,
+				8494553F1C4234D100A748A0 /* CoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8494552F1C40D25800A748A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				849455321C4215AC00A748A0 /* Group+CoreDataProperties.h */,
+				849455331C4215AC00A748A0 /* Group+CoreDataProperties.m */,
+				849455341C4215AC00A748A0 /* Group.h */,
+				849455351C4215AC00A748A0 /* Group.m */,
+				849455361C4215AC00A748A0 /* Item+CoreDataProperties.h */,
+				849455371C4215AC00A748A0 /* Item+CoreDataProperties.m */,
+				849455381C4215AC00A748A0 /* Item.h */,
+				849455391C4215AC00A748A0 /* Item.m */,
+				84EC56D11C3391630078ECF7 /* Tidy.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		849455301C40D26B00A748A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84EC56D61C3391630078ECF7 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		849455311C40D28800A748A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84EC56DF1C3391870078ECF7 /* TidyWindow.h */,
+				84EC56E01C3391870078ECF7 /* TidyWindow.m */,
+				84EC56C81C3391630078ECF7 /* AppDelegate.h */,
+				84EC56C91C3391630078ECF7 /* AppDelegate.m */,
+				84EC56CE1C3391630078ECF7 /* ViewController.h */,
+				84EC56CF1C3391630078ECF7 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		849455431C42386500A748A0 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				849455421C42385C00A748A0 /* Finder.h */,
+				849455401C42354300A748A0 /* ScriptingBridge.framework */,
+				8494553E1C4234D100A748A0 /* CoreServices.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		84EC56BC1C3391630078ECF7 = {
+			isa = PBXGroup;
+			children = (
+				849455431C42386500A748A0 /* Libraries */,
+				84EC56C71C3391630078ECF7 /* Tidy */,
+				84EC56C61C3391630078ECF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EC56C61C3391630078ECF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EC56C51C3391630078ECF7 /* Tidy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EC56C71C3391630078ECF7 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				849455311C40D28800A748A0 /* Controller */,
+				849455301C40D26B00A748A0 /* View */,
+				8494552F1C40D25800A748A0 /* Model */,
+				84EC56CB1C3391630078ECF7 /* Supporting Files */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		84EC56CB1C3391630078ECF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EC56E41C33C24F0078ECF7 /* menu-icon.png */,
+				84EC56CC1C3391630078ECF7 /* main.m */,
+				84EC56D91C3391630078ECF7 /* Info.plist */,
+				84EC56D41C3391630078ECF7 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EC56C41C3391630078ECF7 /* Tidy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EC56DC1C3391630078ECF7 /* Build configuration list for PBXNativeTarget "Tidy" */;
+			buildPhases = (
+				84EC56C11C3391630078ECF7 /* Sources */,
+				84EC56C21C3391630078ECF7 /* Frameworks */,
+				84EC56C31C3391630078ECF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tidy;
+			productName = Tidy;
+			productReference = 84EC56C51C3391630078ECF7 /* Tidy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EC56BD1C3391630078ECF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tommy Le";
+				TargetAttributes = {
+					84EC56C41C3391630078ECF7 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84EC56C01C3391630078ECF7 /* Build configuration list for PBXProject "Tidy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EC56BC1C3391630078ECF7;
+			productRefGroup = 84EC56C61C3391630078ECF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EC56C41C3391630078ECF7 /* Tidy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EC56C31C3391630078ECF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EC56D51C3391630078ECF7 /* Assets.xcassets in Resources */,
+				84EC56E51C33C24F0078ECF7 /* menu-icon.png in Resources */,
+				84EC56D81C3391630078ECF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EC56C11C3391630078ECF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8494553D1C4215AC00A748A0 /* Item.m in Sources */,
+				84EC56D01C3391630078ECF7 /* ViewController.m in Sources */,
+				84EC56CD1C3391630078ECF7 /* main.m in Sources */,
+				8494553B1C4215AC00A748A0 /* Group.m in Sources */,
+				84EC56E11C3391870078ECF7 /* TidyWindow.m in Sources */,
+				84EC56CA1C3391630078ECF7 /* AppDelegate.m in Sources */,
+				84EC56D31C3391630078ECF7 /* Tidy.xcdatamodeld in Sources */,
+				8494553C1C4215AC00A748A0 /* Item+CoreDataProperties.m in Sources */,
+				8494553A1C4215AC00A748A0 /* Group+CoreDataProperties.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84EC56D61C3391630078ECF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EC56D71C3391630078ECF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EC56DA1C3391630078ECF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84EC56DB1C3391630078ECF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84EC56DD1C3391630078ECF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tidy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.Tidy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EC56DE1C3391630078ECF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Tidy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.tommyle.Tidy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EC56C01C3391630078ECF7 /* Build configuration list for PBXProject "Tidy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC56DA1C3391630078ECF7 /* Debug */,
+				84EC56DB1C3391630078ECF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EC56DC1C3391630078ECF7 /* Build configuration list for PBXNativeTarget "Tidy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC56DD1C3391630078ECF7 /* Debug */,
+				84EC56DE1C3391630078ECF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84EC56D11C3391630078ECF7 /* Tidy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84EC56D21C3391630078ECF7 /* Tidy.xcdatamodel */,
+			);
+			currentVersion = 84EC56D21C3391630078ECF7 /* Tidy.xcdatamodel */;
+			path = Tidy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84EC56BD1C3391630078ECF7 /* Project object */;
+}
